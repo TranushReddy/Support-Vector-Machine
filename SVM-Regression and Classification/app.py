@@ -18,7 +18,7 @@ from datetime import datetime
 
 # Page Config
 st.set_page_config("END TO END SVM(BOTH REGRESSION AND CLASSIFICATION)", layout="wide")
-st.title("Universal SVM Platform (Any CSV Dataset)")
+st.title("END TO END SVM(BOTH REGRESSION AND CLASSIFICATION)")
 
 # Sidebar
 st.sidebar.header("Model Settings")
@@ -155,3 +155,4 @@ if df_model is not None:
         ax.set_xlabel("Actual")
         ax.set_ylabel("Predicted")
         st.pyplot(fig)
+
